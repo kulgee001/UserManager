@@ -11,8 +11,6 @@ RUN apt-get install git-all -y
 RUN npm cache clean -f
 RUN npm install -g n
 RUN n stable
-# clone repository
-RUN git clone https://github.com/kulgee001/UserManager
 # setup working directory
 WORKDIR /app
 RUN npm install
