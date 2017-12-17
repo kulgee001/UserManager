@@ -1,2 +1,2 @@
-docker build -t api ./web-app
+docker build -t app ./app
 docker build -t mongodb ./mongodb
