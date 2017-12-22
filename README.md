@@ -13,7 +13,7 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * Ensure that you've `docker` and `git` installed on your PC.
 * Clone the repository by entering the command `git clone https://github.com/kulgee001/UserManager` in the terminal.
 * Navigate to the project folder using `cd UserManager` on your terminal (or command prompt).
-* Create a `.env` file similar to the `.env-sample` file. Set `DB_URL='mongodb://mongodb:27017'` and `PORT=3000`
+* Create a `.env` file similar to the `.env-sample` file. Set `DB_URL='mongodb://mongodb:27017'` and `PORT=3000`. It is essential you create this file before running the application.
 * Then execute the `run.sh` script with the command `bash run.sh`
 * Your app will be available at `http://localhost:3000`
 
