@@ -13,7 +13,9 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * Ensure that you've `docker` and `git` installed on your PC.
 * Clone the repository by entering the command `git clone https://github.com/kulgee001/UserManager` in the terminal.
 * Navigate to the project folder using `cd UserManager` on your terminal (or command prompt).
-* Then execute the run.sh script with the command `bash run.sh`
+* Create a `.env` file similar to the `.env-sample` file. Set `DB_URL='mongodb://mongodb:27017'` and `PORT=3000`
+* Then execute the `run.sh` script with the command `bash run.sh`
+* Your app will be available at `http://localhost:3000`
 
 ### API Documentation
 The API only has one endpoint which is the `/users` endpoint for saving users to the database. The endpoint works with the HTTP verbs: `POST`, `GET`, `PUT`, `DELETE`.
