@@ -25,7 +25,6 @@ RUN n stable
 
 # setup working directory
 WORKDIR /usr/src/app
-RUN npm install
 
 # expose port
 EXPOSE 8080
