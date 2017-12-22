@@ -19,7 +19,9 @@
     "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
-    "mongoose": "^4.9.6"
+    "mongoose": "^4.9.6",
+    "npm": "^5.6.0",
+    "start": "^5.1.0"
   },
   "directories": {
     "test": "tests"

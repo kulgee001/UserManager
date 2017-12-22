@@ -26,6 +26,13 @@ RUN n stable
 # setup working directory
 WORKDIR /usr/src/app
 
+# install app dependencies
+COPY package*.json ./
+RUN npm install --only=production
+
+# bundle app source
+COPY . .
+
 # expose port
-EXPOSE 8080
 EXPOSE 3000
+CMD [ "npm", "start" ]
